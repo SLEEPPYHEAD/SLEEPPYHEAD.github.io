@@ -2,6 +2,27 @@
 <html>
 <head>
 	<title>Product Catalog</title>
+	<style>
+		main {
+			display: grid;
+			grid-template-columns: repeat(2, 1fr);
+			grid-gap: 20px;
+		}
+		section {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			text-align: center;
+			border: 1px solid #ddd;
+			padding: 10px;
+			border-radius: 5px;
+			box-shadow: 0 0 5px #ddd;
+		}
+		img {
+			max-width: 100%;
+			height: auto;
+		}
+	</style>
 </head>
 <body>
 	<header>
@@ -10,7 +31,7 @@
 	<main>
 		<section>
 			<h2>Product 1</h2>
-			<img src="https://imgur.com/gallery/Hl1817q" alt="Naruto">
+			<img src="product1.jpg" alt="Product 1">
 			<p>Price: $10.00</p>
 		</section>
 		<section>
@@ -22,6 +43,11 @@
 			<h2>Product 3</h2>
 			<img src="product3.jpg" alt="Product 3">
 			<p>Price: $30.00</p>
+		</section>
+		<section>
+			<h2>Product 4</h2>
+			<img src="product4.jpg" alt="Product 4">
+			<p>Price: $40.00</p>
 		</section>
 	</main>
 </body>
