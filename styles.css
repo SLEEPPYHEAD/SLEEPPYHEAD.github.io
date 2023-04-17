@@ -1,0 +1,142 @@
+body {
+  background: linear-gradient(#cffbff, #faeefc);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#top-background{
+  color: blueviolet;
+  background-image: url(30.jpg);
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  background-position: center;
+  border-style: solid;
+  border-width: thin;
+  height: 600px;
+  border-radius: 7px;
+}
+
+.hompage-buttons-section {
+  padding-top: 50px; 
+}
+
+.category-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  gap: 25px; /*gap between buttons in same row */
+}
+
+.category-buttons button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  font-size: 32px;
+  width: 300px;
+  height: 130px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  padding: 20px; /* Add padding */
+}
+a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.phone {
+  opacity: 1; /* Decrease the opacity of the element */
+  background-image: url(3.jpg);
+  background-size: cover; /* Make the background image cover the container */
+  background-repeat: no-repeat; /* Prevent the background image from repeating */
+  background-position: center; /* Center the background image */
+}
+
+.laptop {
+  opacity: 0.9; /* Decrease the opacity of the element */
+  background-image: url(30.jpg);
+  background-size: cover; /* Make the background image cover the container */
+  background-repeat: no-repeat; /* Prevent the background image from repeating */
+  background-position: center; /* Center the background image */
+}
+.camera {
+  opacity: 1; /* Decrease the opacity of the element */
+  background-image: url(laptop.jpg);
+  background-size: cover; /* Make the background image cover the container */
+  background-repeat: no-repeat; /* Prevent the background image from repeating */
+  background-position: center; /* Center the background image */
+}
+
+
+/* html, body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .pic-ctn {
+    width: 100vw;
+    height: 200px;
+  }
+  
+  @keyframes display {
+    0% {
+      transform: translateX(200px);
+      opacity: 0;
+    }
+    10% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+    20% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+    30% {
+      transform: translateX(-200px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(-200px);
+      opacity: 0;
+    }
+  }
+  
+  .pic-ctn {
+    position: relative;
+    width: 100vw;
+    height: 300px;
+    margin-top: 15vh;
+  }
+  
+  .pic-ctn > img {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 100px);
+    opacity: 0;
+    animation: display 10s infinite;
+  }
+  
+  img:nth-child(2) {
+    animation-delay: 2s;
+  }
+  img:nth-child(3) {
+    animation-delay: 4s;
+  }
+  img:nth-child(4) {
+    animation-delay: 6s;
+  }
+  img:nth-child(5) {
+    animation-delay: 8s;
+  }
+  img {
+    width: 300px;
+    height: auto;
+  }
+  .openseadragon-container > .openseadragon-overlay {
+    font-size: 24px;
+  }
+   */
