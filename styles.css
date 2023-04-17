@@ -71,6 +71,32 @@ a {
   background-position: center; /* Center the background image */
 }
 
+.search-container {
+  display: flex;
+  align-items: center;
+}
+
+.search-container input[type="search"] {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px 0 0 5px;
+  border: none;
+}
+
+.search-container button[type="submit"] {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+.search-container button[type="submit"]:hover {
+  background-color: #0069d9;
+}
 
 /* html, body {
     margin: 0;
