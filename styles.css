@@ -1,3 +1,4 @@
+/* Home Page CSS Properties */
 body {
   background: linear-gradient(#cffbff, #faeefc);
   background-repeat: no-repeat;
@@ -43,6 +44,10 @@ body {
   margin-bottom: 10px;
   border-radius: 10px;
   padding: 20px; /* Add padding */
+}
+a {
+  text-decoration: none;
+  color: aliceblue;
 }
 
 .phone {
@@ -95,6 +100,7 @@ body {
   background-color: #0069d9;
 }
 
+/* Product Page CSS Properties */
 main.product-homepage {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -102,7 +108,7 @@ main.product-homepage {
   margin: 20px;
 }
 
-section {
+section.product-homepage {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -113,7 +119,7 @@ section {
   box-shadow: 0 0 5px #ddd;
 }
 
-img {
+img.product-homepage {
   max-width: 200px;
   height: auto;
 }
