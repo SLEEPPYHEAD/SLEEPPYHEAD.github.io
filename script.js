@@ -23,4 +23,5 @@ var viewer = OpenSeadragon({
     url: "1.jpg"
   }
 });
-
+const carouselSlide = document.querySelector(".carousel-slide");
+const carouselImages = document.querySelectorAll(".carousel-slide);
