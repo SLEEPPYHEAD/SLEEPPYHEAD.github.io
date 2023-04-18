@@ -25,3 +25,35 @@ var viewer = OpenSeadragon({
 });
 const carouselSlide = document.querySelector(".carousel-slide");
 const carouselImages = document.querySelectorAll(".carousel-slide);
+const carouselImages = [  'images/carousel1.jpg',  'images/carousel2.jpg',  'images/carousel3.jpg',  'images/carousel4.jpg'];
+
+let currentIndex = 0;
+
+const carouselImage = document.getElementById('carousel-image');
+const leftButton = document.getElementById('left-button');
+const rightButton = document.getElementById('right-button');
+
+function displayImage(index) {
+  carouselImage.src = carouselImages[index];
+}
+
+function moveLeft() {
+  currentIndex--;
+  if (currentIndex < 0) {
+    currentIndex = carouselImages.length - 1;
+  }
+  displayImage(currentIndex);
+}
+
+function moveRight() {
+  currentIndex++;
+  if (currentIndex >= carouselImages.length) {
+    currentIndex = 0;
+  }
+  displayImage(currentIndex);
+}
+
+leftButton.addEventListener('click', moveLeft);
+rightButton.addEventListener('click', moveRight);
+
+setInterval(moveRight, 2000);
