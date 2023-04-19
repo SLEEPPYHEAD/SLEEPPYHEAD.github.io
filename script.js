@@ -20,14 +20,16 @@ buttons.foreach(button => {
 // const nextButton = document.querySelector('.carousel-button-next');
 // let slidePosition = 0;
 
-// function moveToNextSlide() {
-//   if (slidePosition === -100) {
-//     slidePosition = 10;
-//   } else {
-//     slidePosition -= 10;
-//   }
-//   slide.style.transform = `translateX(${slidePosition}%)`;
-// }
+var viewer = OpenSeadragon({
+  id: "viewer",
+  prefixUrl: "https://openseadragon.github.io/openseadragon/images/",
+  tileSources: {
+    type: "image",
+    url: "1.jpg"
+  }
+});
+const carouselSlide = document.querySelector(".carousel-slide");
+const carouselImages = document.querySelectorAll(".carousel-slide);
 
 // function moveToPrevSlide() {
 //   if (slidePosition === 0) {
