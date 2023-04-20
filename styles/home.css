@@ -1,6 +1,4 @@
-/*================================================================
-/* ===============Home Page CSS Properties================== 
-/* ============================================================ */
+
 body {
   background: linear-gradient(#cffbff, #faeefc);
   background-repeat: no-repeat;
@@ -9,18 +7,51 @@ body {
   margin: 0;
 }
 
+
+/*=========================================
+============== Top background =============
+===========================================*/
 #top-background{
   color: blueviolet;
-  background-image: url(30.jpg);
+  background-image: url(/images/laptop.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   border-style: solid;
   border-width: thin;
   height: 600px;
-  border-radius: 7px;
+  border-radius: 0px;
 }
 
+
+/*=========================================
+============= Scrolling text ==============
+===========================================*/
+.scrolling-container {
+  width: 80%;
+  height: 50px;
+  overflow: hidden;
+  margin: 0 auto;
+  
+}
+
+.scrolling-text {
+  display: inline-block;
+  animation: scroll-left 10s linear infinite;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/*=========================================
+================= Buttons ==================
+===========================================*/
 .hompage-buttons-section {
   padding-top: 50px; 
 }
@@ -41,8 +72,8 @@ body {
   text-align: center;
   color: aliceblue;
   font-size: 32px;
-  width: 300px;
-  height: 130px;
+  width: 230px;
+  height: 100px;
   margin-right: 10px;
   margin-bottom: 10px;
   border-radius: 10px;
@@ -55,7 +86,7 @@ a {
 
 .phone {
   opacity: 1; /* Decrease the opacity of the element */
-  background-image: url(3.jpg);
+  background-image: url(../images/3.jpg);
   background-size: cover; /* Make the background image cover the container */
   background-repeat: no-repeat; /* Prevent the background image from repeating */
   background-position: center; /* Center the background image */
@@ -63,19 +94,18 @@ a {
 
 .laptop {
   opacity: 0.9; /* Decrease the opacity of the element */
-  background-image: url(30.jpg);
+  background-image: url(../images/laptop.jpg);
   background-size: cover; /* Make the background image cover the container */
   background-repeat: no-repeat; /* Prevent the background image from repeating */
   background-position: center; /* Center the background image */
 }
 .camera {
   opacity: 1; /* Decrease the opacity of the element */
-  background-image: url(laptop.jpg);
+  background-image: url(../images/camera.jpg);
   background-size: cover; /* Make the background image cover the container */
   background-repeat: no-repeat; /* Prevent the background image from repeating */
   background-position: center; /* Center the background image */
 }
-/*==================================================
 
 /*=========search==========*/
 .search-container {
@@ -105,79 +135,26 @@ a {
   background-color: #0069d9;
 }
 
-/*==========carousel========*/
-.carousel {
-  position: relative;
-  width: 100vw; /* set the fixed size you want */
-  height: 100vh; /* set the fixed size you want */
-  /* margin: 0 auto; /* center the container horizontally */
-  /* overflow: hidden; */ 
-}
-.carousel > ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-.slide {
-  position: absolute;
-  inset: 0;
-  opacity: 0;
-  /* display: flex;
-  overflow-x: hidden; /* hide the overflow */
-  /* width: 4000px; 
-  transition: transform 0.5s ease;
-  scroll-snap-type: x mandatory;
-  padding: 0;
-  margin: 0; */
-}
-.slide > img{
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
-}
-.slide[data-active] {
-  opacity: 1;
-}
-.carousel-slide img {
-  position:relative;
-  width: 100%;
-  height: auto;
-  max-width: 400px; /* set the width of the carousel container */
-  max-height: 500px; /* adjust this value as needed */
-  margin-right: 10px; /* add some spacing between images */
-  scroll-snap-align: start;
+
+/*=========================================
+============== Service details ============
+===========================================*/
+.sevice-details{
+  background-color: #3f7189;
 }
 
-.carousel-button {
-  position: absolute;
-  z-index: 2;
-  background: none;
-  border: none;
-  font-size: 4rem;
-  top: 50%;
-  transform: translateY(-50%);
-  
-  
-  color: white;
-  background-color: rgba(0, 0, 0, 0.5);
 
-  cursor: pointer;
-}
-
-.carousel-button-prev {
-  left: 0;
-}
-
-.carousel-button-next {
-  right: 0;
+/*=========================================
+============== Customer reviews ============
+===========================================*/
+.customer-reviews{
+  background-color: #66a39e;
 }
 
 
 /*================================================================
-/* ===============Product Page CSS Properties================== 
-/* ============================================================ */
+================Product Page CSS Properties================== 
+============================================================ */
 main.product-homepage {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -211,69 +188,3 @@ img.product-homepage {
     padding: 5px;
   }
 }
-
-
-/* html, body {
-    margin: 0;
-    padding: 0;
-  }
-  
-  .pic-ctn {
-    width: 100vw;
-    height: 200px;
-  }
-  
-  @keyframes display {
-    0% {
-      transform: translateX(200px);
-      opacity: 0;
-    }
-    10% {
-      transform: translateX(0);
-      opacity: 1;
-    }
-    20% {
-      transform: translateX(0);
-      opacity: 1;
-    }
-    30% {
-      transform: translateX(-200px);
-      opacity: 0;
-    }
-    100% {
-      transform: translateX(-200px);
-      opacity: 0;
-    }
-  }
-  
-  .pic-ctn {
-    position: relative;
-    width: 100vw;
-    height: 300px;
-    margin-top: 15vh;
-  }
-  
-  .pic-ctn > img {
-    position: absolute;
-    top: 0;
-    left: calc(50% - 100px);
-    opacity: 0;
-    animation: display 10s infinite;
-  }
-  
-  img:nth-child(2) {
-    animation-delay: 2s;
-  }
-  img:nth-child(3) {
-    animation-delay: 4s;
-  }
-  img:nth-child(4) {
-    animation-delay: 6s;
-  }
-  img:nth-child(5) {
-    animation-delay: 8s;
-  }
-  img {
-    width: 300px;
-    height: auto;
-  }

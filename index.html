@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" type="text/css" href="styles/home.css" />
     <meta
       name="description"
       content="Find information on different laptop sticker, pokémon, species, laptop, pranto stickers species and their strengths and weaknesses."
@@ -16,7 +16,9 @@
     />
     <title>Home</title>
   </head>
+
   <body>
+    <!-- Header -->
     <header>
       <h1>
         <div class="search-container">
@@ -28,49 +30,46 @@
         </div>
       </h1>
     </header>
+
+    <!-- Main -->
     <main>
+      <!-- Top background -->
       <section id="top-background">
         <p>Welcome to N/A</p>
       </section>
+
+      <!-- Scrolling text -->
+      <section class="scrolling-container">
+        <p class="scrolling-text">
+          Choose any skin you like. Or order your own custom designs!
+        </p>
+      </section>
+
+      <!-- Category Buttons -->
       <section class="hompage-buttons-section">
         <div class="category-buttons">
           <a href="phone/phone.html"><button class="phone">Phone</button></a>
           <a href="laptop/laptop.html"><button class="laptop">Laptop</button></a>
         </div>
-        <br />
+        <div class="category-buttons">
+          <a href="earphone/earphone.html"><button class="misc">Earphone Case</button></a>
+          <a href="headphone/headphone.html"><button class="headphone">Headphone</button></a>
+        </div>
         <div class="category-buttons">
           <a href="camera/camera.html"><button class="camera">Camera</button></a>
           <a href="misc/misc.html"><button class="misc">Misc</button></a>
         </div>
-        <section>
-          <div class="carousel">
-          <button class="carousel-button-prev" data-carousel-button>&#10094;</button>
-          <button class="carousel-button-next" data-carousel-button>&#10095;</button>
-            <ul>
-            <li class="slide" data-active><img src="1.jpg"></li>
-            <li class="slide"><img src="2.jpg"></li>
-            <li class="slide"><img src="3.jpg"></li>
-            <li class="slide"><img src="https://cdn.discordapp.com/attachments/1093218299573190679/1097965875786694806/hot1.jpg" alt=""></li>       
-            
-          </ul>
-          </div>
-        </section>
-        
-        <p>
-          enter texxt
-        </p>
       </section>
-      <section>
-        <h2>Our Services</h2>
-        <ul>
-          <li>Service 1</li>
-          <li>Service 2</li>
-          <li>Service 3</li>
-        </ul>
-      </section>
+
+      <!-- Service details -->
+      <section class="sevice-details">service details</section>
+
+      <!-- Customer reviews -->
+      <section class="customer-reviews">Customer reviews section</section>
     </main>
     <footer>
-      <p>Copyright &copy; 2023 Sample Website</p>
+      <p>&copy; 2023 My Website. All rights reserved.</p>
+      <p>Contact us at info@mywebsite.com</p>
     </footer>
     <script src="script.js"></script>
   </body>
