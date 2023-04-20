@@ -155,13 +155,21 @@ a {
 /*=========================================
 ============== Footer ============
 ===========================================*/
-footer {
-  background-color: #6684a3
+info-wrap-foot {
+  background: #f2f2f2;
 }
 .footer-infos {
-  display: inline-block;
+  width: 20%;
+  float: left;
+  margin-right: 0;
 }
-
+.sub-cat {
+  margin: 0;
+  padding: 0;
+  color: #505053;
+  font-family: 'roboto';
+  font-size: 12px;
+  }
 /*=========================================
 ============== Soicals ============
 ===========================================*/
