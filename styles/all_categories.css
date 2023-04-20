@@ -1,10 +1,14 @@
-main {
+section.products {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-gap: 20px;
   margin: 20px;
 }
+<<<<<<< HEAD
 div {
+=======
+/* section {
+>>>>>>> 954a762d0aeabece356a9ff578ec0a8e5c70db97
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -13,7 +17,7 @@ div {
   padding: 10px;
   border-radius: 5px;
   box-shadow: 0 0 5px #ddd;
-}
+} */
 img {
   max-width: 200px;
   height: auto;
