@@ -29,7 +29,7 @@ body {
 ===========================================*/
 .scrolling-container {
   width: 80%;
-  height: 50px;
+  height: 50%;
   overflow: hidden;
   margin: 0 auto;
   
@@ -148,43 +148,26 @@ a {
 ============== Customer reviews ============
 ===========================================*/
 .customer-reviews{
-  background-color: #66a39e;
+  background-color: #50556a;
+}
+
+/*=========================================
+============== Footer ============
+===========================================*/
+footer {
+  background-color: #6684a3
 }
 
 
-/*================================================================
-================Product Page CSS Properties================== 
-============================================================ */
-main.product-homepage {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  grid-gap: 20px;
-  margin: 20px;
+/*=========================================
+============== Soicals ============
+===========================================*/
+
+img {
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
 }
-
-section.product-homepage {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  border: 1px solid #ddd;
-  padding: 10px;
-  border-radius: 5px;
-  box-shadow: 0 0 5px #ddd;
-}
-
-img.product-homepage {
-  max-width: 200px;
-  height: auto;
-}
-
-/* Media queries for responsive layout */
-@media screen and (max-width: 768px) {
-  main {
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  }
-
-  section {
-    padding: 5px;
-  }
+socials div{
+  
 }
