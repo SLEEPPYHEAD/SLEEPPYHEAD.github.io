@@ -1,3 +1,4 @@
+
 body {
   background: linear-gradient(#cffbff, #faeefc);
   background-repeat: no-repeat;
@@ -6,10 +7,11 @@ body {
   margin: 0;
 }
 
+
 /*=========================================
 ============== Top background =============
 ===========================================*/
-#top-background {
+#top-background{
   color: blueviolet;
   background-image: url(/images/laptop.jpg);
   background-repeat: no-repeat;
@@ -20,6 +22,7 @@ body {
   height: 600px;
   border-radius: 0px;
 }
+
 
 /*=========================================
 ============= Scrolling text ==============
@@ -50,8 +53,8 @@ body {
 /*=========================================
 ================= Buttons ==================
 ===========================================*/
-.hompage-buttons-div {
-  padding-top: 50px;
+.hompage-buttons-section {
+  padding-top: 50px; 
 }
 
 .category-buttons {
@@ -133,17 +136,19 @@ a {
   background-color: #0069d9;
 }
 
+
 /*=========================================
 ============== Service details ============
 ===========================================*/
-.sevice-details {
+.sevice-details{
   background-color: #3f7189;
 }
+
 
 /*=========================================
 ============== Customer reviews ============
 ===========================================*/
-.customer-reviews {
+.customer-reviews{
   background-color: #50556a;
 }
 
@@ -151,7 +156,7 @@ a {
 ============== Footer ============
 ===========================================*/
 info-wrap-foot {
-  background: #f2f2f2;
+  background-color: #6684a3
 }
 .footer-infos {
   width: 20%;
@@ -174,6 +179,7 @@ img {
   height: 15px;
   border-radius: 10px;
 }
-socials div{
-  
+div.socials {
+  position: relative;
+  left: 90%;
 }
