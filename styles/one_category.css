@@ -1,6 +1,6 @@
 section.product {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-gap: 20px;
   margin: 20px;
 }
@@ -78,7 +78,7 @@ body{
     position: relative;
     background-color: var(--sectionBack);
     width: 350px;
-    height: 10%;
+    height: 40%;
     box-shadow: 0 5px 20px rgba(0, 0, 0, .3);
     display: flex;
     flex-direction: column;
