@@ -1,4 +1,4 @@
-'''
+/*'''
 Css:
 section.product {
   display: grid;
@@ -215,4 +215,4 @@ Html code:
   </body>
 </html>
 
-'''
+'''*/
