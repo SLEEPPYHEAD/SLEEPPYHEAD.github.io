@@ -80,7 +80,7 @@ body {
   border-radius: 10px;
   padding: 20px; /* Add padding */
 }
-a {
+a.buttons {
   text-decoration: none;
   color: aliceblue;
 }

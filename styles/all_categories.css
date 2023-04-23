@@ -50,3 +50,46 @@ img {
   font-weight: bold;
   cursor: pointer;
 }
+/*============================================
+================== Buttons ======================
+===============================================*/
+.hompage-buttons-section {
+  padding-top: 50px; 
+}
+
+.category-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  gap: 25px; /*gap between buttons in same row */
+}
+
+.category-buttons button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  color: aliceblue;
+  font-size: 32px;
+  width: 230px;
+  height: 100px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  padding: 20px; /* Add padding */
+}
+
+a.buttons {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.demon-slayer {
+  opacity: 1; /* Decrease the opacity of the element */
+  background-image: url(https://static3.srcdn.com/wordpress/wp-content/uploads/2020/05/Demon-Slayer-Movie-2.jpg);
+  background-size: cover; /* Make the background image cover the container */
+  background-repeat: no-repeat; /* Prevent the background image from repeating */
+  background-position: center; /* Center the background image */
+}
