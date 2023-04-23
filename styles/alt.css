@@ -1,4 +1,4 @@
-section {
+section.products {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-gap: 20px;
@@ -16,11 +16,28 @@ div.product {
     border-radius: 5px;
     box-shadow: 0 0 5px #ddd;
 }
-img {
-    max-width: 200px;
+div.product img {
+    max-width: calc(100% - 20px); /* subtract the padding on both sides */
     height: auto;
+    padding: 0 10px; /* add the fixed padding */
+}
+.product-info {
+  display: flex;
+  flex-direction: column;
 }
 
+.product-info p {
+  margin: 1px;
+  font-weight: bold;
+  text-shadow: #ddd;
+  color: #f6aa46;
+}
+
+.product-info button {
+    background-color: rgb(163, 204, 246);
+    border-radius: 7px;
+    margin: 5px;
+}
 /* Media queries for responsive layout */
 @media screen and (max-width: 768px) {
 main {
