@@ -1,10 +1,12 @@
-main {
+section {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-gap: 20px;
+    padding: 10px;
     margin: 20px;
+    max-width: 1200px;
 }
-div {
+div.product {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -24,8 +26,3 @@ img {
 main {
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 }
-div {
-    padding: 5px;
-}
-}
-
