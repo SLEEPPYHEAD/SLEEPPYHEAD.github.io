@@ -76,5 +76,17 @@
             $("#footer").("../../../footer.html"); 
          });
       </script>
+<div id="footer"></div>
+      <!-- include the footer -->
+      <script>
+         var xhr = new XMLHttpRequest();
+         xhr.open('GET', 'footer.html', true);
+         xhr.onreadystatechange = function() {
+            if (this.readyState !== 4) return;
+            if (this.status !== 200) return;
+            document.getElementById('footer').innerHTML = this.responseText;
+         };
+         xhr.send();
+      </script>
   </body>
 </html>
