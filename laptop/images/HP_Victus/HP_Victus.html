@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Laptop skins</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="../../../styles/alt.css" />
+ </head>
+  <body>
+    <header>
+      <h1>Laptop Skin Catalog</h1>
+    </header>
+    <main>
+      <section class="products">
+        <div class="product">
+          <img src="01.jpg" alt="HP Omen" />
+          <div class="product-info">
+            <h2>HP Omen</h2>
+            <p>৳350.00</p>
+            <a href=""><button>Buy now</button></a>
+          </div>
+        </div>
+        <div class="product">
+          <img src="02.jpg" alt="Black Victus">
+          <div class="product-info">
+            <h2>Black Victus</h2>
+            <p>৳350.00</p>
+            <a href=""><button>Buy now</button></a>
+          </div>
+        </div>
+        <div class="product">
+          <img src="03.jpg" alt="Yellow Alley Graffity">
+          <div class="product-info">
+            <h2>Purple Graffity</h2>
+            <p>৳350.00</p>
+            <a href=""><button>Buy now</button></a>
+          </div>
+        </div>
+        <div class="product">
+          <img src="04.jpg" alt="Bloody HP">
+          <div class="product-info">
+            <h2>Bloody HP</h2>
+            <p>৳350.00</p>
+            <a href=""><button>Buy now</button></a>
+          </div>
+        </div>
+        <div class="product">
+          <img src="05.jpg" alt="Victus">
+          <div class="product-info">
+            <h2>Victus01</h2>
+            <p>৳350.00</p>
+            <a href=""><button>Buy now</button></a>
+          </div>
+        </div>
+        <div class="product">
+          <img src="06.jpg" alt="Victus">
+          <div class="product-info">
+            <h2>Victus02</h2>
+            <p>৳350.00</p>
+            <a href=""><button>Buy now</button></a>
+          </div>
+        </div>
+        <div class="product">
+          <img src="07.jpg" alt="Victus" />
+          <div class="product-info">
+            <h2>Victus03</h2>
+            <p>৳350.00</p>
+            <a href=""><button>Buy now</button></a>
+          </div>
+        </div>
+        <div class="product">
+          <img src="08.jpg" alt="Victus" />
+          <div class="product-info">
+            <h2>Victus04</h2>
+            <p>৳350.00</p>
+            <a href=""><button>Buy now</button></a>
+          </div>
+        </div>
+        <div class="product">
+          <img src="09.jpg" alt="Victus" />
+          <div class="product-info">
+            <h2>Victus05</h2>
+            <p>৳350.00</p>
+            <a href=""><button>Buy now</button></a>
+          </div>
+        </div>
+        <div class="product">
+          <img src="10.jpg" alt="Victus" />
+          <div class="product-info">
+            <h2>Victus06</h2>
+            <p>৳350.00</p>
+            <a href=""><button>Buy now</button></a>
+          </div>
+        </div>
+        <div class="product">
+          <img src="11.jpg" alt="Victus" />
+          <div class="product-info">
+            <h2>Victus Earth</h2>
+            <p>৳350.00</p>
+            <a href=""><button>Buy now</button></a>
+          </div>
+        </div>
+        <div class="product">
+          <img src="12.jpg" alt="Victus" />
+          <div class="product-info">
+            <h2>Victus Floral</h2>
+            <p>৳350.00</p>
+            <a href=""><button>Buy now</button></a>
+          </div>
+        </div>
+        <div class="product">
+          <img src="30.jpg" alt="Green Graffity" />
+          <div class="product-info">
+            <h2>Green Graffity</h2>
+            <p>৳350.00</p>
+            <a href=""><button>Buy now</button></a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Footer -->
+    <div id="footer"></div>
+    <link rel="stylesheet" type="text/css" href="../../../head-nav-foot/footer.css" />
+    <!-- include the footer -->
+    <script>
+        var xhr = new XMLHttpRequest();
+        xhr.open('GET', '../../../head-nav-foot/footer.html', true);
+        xhr.onreadystatechange = function() {
+          if (this.readyState !== 4) return;
+          if (this.status !== 200) return;
+          document.getElementById('footer').innerHTML = this.responseText;
+        };
+        xhr.send();
+    </script>
+  </body>
+</html>
