@@ -170,16 +170,3 @@ body {
   font-family: 'roboto';
   font-size: 12px;
   }
-/*=========================================
-============== Socials ============
-===========================================*/
-
-img {
-  width: 15px;
-  height: 15px;
-  border-radius: 10px;
-}
-div.socials {
-  position: relative;
-  left: 90%;
-}

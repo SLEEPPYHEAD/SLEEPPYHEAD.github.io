@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="styles/home.css" />
+    <link rel="stylesheet" type="text/css" href="../../../head-nav-foot/footer.css" />
     <meta
       name="description"
       content="Find information on different laptop sticker, pokémon, species, laptop, pranto stickers species and their strengths and weaknesses."
@@ -77,66 +78,18 @@
     </main>
 
     <!-- Footer -->
-    <footer>
-      <div class="info-wrap-foot">
-        <div class="container">
-          <div class="row">
-
-            <!-- Company info -->
-            <div class="footer-infos">
-              <h4>Company Info</h4>
-              <ul class="sub-cat">
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Contact Us</a></li>
-                <li><a href="#">FAQ</a></li>
-                <li><a href="#">Privacy Policy</a></li>
-                <li><a href="#">Terms and Conditions</a></li>
-                <li><i class="fa fa-phone"></i><a href="tel:01746565165">01746-565165</a></li>
-                <li><i class="fa fa-envelope"></i><a href="mailto:trexitytees.bd@gmail.com">trexitytees.bd@gmail.com</a></li>
-                <li><i class="fa fa-map-marker"></i>123 Main Street, Anytown USA</li>
-              </ul>
-            </div>
-            
-
-            <!-- Categories -->
-            <div class="footer-infos">
-              <h4>Categories</h4>
-              <ul class="sub-cat">
-                <li><a href="phone/phone.html">Phone skins</a></li>
-                <li><a href="laptop/laptop.html">Laptop skins</a></li>
-                <li><a href="earphone/earphone.html">Earphone case skins</a></li>
-                <li><a href="headphone/headphone.html">Headphone skins</a></li>
-                <li><a href="camera/camera.html">Camera skins</a></li>
-              </ul>
-            </div>
-
-            <!-- Socials-->
-            <div class="footer-infos">
-              <h4>Connect With Us</h4>
-              <ul class="sub-cat">
-                <li><a href="https://www.facebook.com/TrexityTees/?_rdc=1&_rdr" target="_blank"> Facebook
-                  <img src=https://upload.wikimedia.org/wikipedia/en/thumb/0/04/Facebook_f_logo_%282021%29.svg/240px-Facebook_f_logo_%282021%29.svg.png
-                  alt="facebook-icon" />
-                </a></li>
-                <li> <a href="https://www.instagram.com/trexitytees/" target="_blank"> Instagram
-                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/240px-Instagram_logo_2022.svg.png"
-                    alt="instagram-icon"/>
-                </a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="footer-bottom">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <p>&copy; 2023 ExampleShop. All Rights Reserved.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
+    <div id="footer"></div>
+    <!-- include the footer -->
+    <script>
+        var xhr = new XMLHttpRequest();
+        xhr.open('GET', '../../../head-nav-foot/footer.html', true);
+        xhr.onreadystatechange = function() {
+          if (this.readyState !== 4) return;
+          if (this.status !== 200) return;
+          document.getElementById('footer').innerHTML = this.responseText;
+        };
+        xhr.send();
+    </script>
     <script src="script.js"></script>
   </body>
 </html>
