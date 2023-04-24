@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Laptop skins</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="../../../styles/alt.css" />
+    <link rel="stylesheet" type="text/css" href="../../../styles/home.css" />
+ </head>
+  <body>
+    <header>
+      <h1>Laptop Skin Catalog</h1>
+    </header>
+    <main>
+      <section class="products">
+        <div class="product">
+          <img src="10.jpg" alt="Zenitsu" />
+          <div class="product-info">
+            <h2>Zenitsu</h2>
+            <p>৳350.00</p>
+            <a href=""><button>Buy now</button></a>
+          </div>
+        </div>
+        <div class="product">
+          <img src="11.jpg" alt="Dark with Red Moon">
+          <div class="product-info">
+            <h2>Tanjiro Sun-breathing</h2>
+            <p>৳350.00</p>
+            <a href=""><button>Buy now</button></a>
+          </div>
+        </div>
+        <div class="product">
+          <img src="11.jpg" alt="Dark with Red Moon">
+          <div class="product-info">
+            <h2>Tanjiro Sun-breathing</h2>
+            <p>৳350.00</p>
+            <a href=""><button>Buy now</button></a>
+          </div>
+        </div>
+        <div class="product">
+          <img src="11.jpg" alt="Dark with Red Moon">
+          <div class="product-info">
+            <h2>Tanjiro Sun-breathing</h2>
+            <p>৳350.00</p>
+            <a href=""><button>Buy now</button></a>
+          </div>
+        </div><div class="product">
+          <img src="11.jpg" alt="Dark with Red Moon">
+          <div class="product-info">
+            <h2>Tanjiro Sun-breathing</h2>
+            <p>৳350.00</p>
+            <a href=""><button>Buy now</button></a>
+          </div>
+        </div>
+        <div class="product">
+          <img src="11.jpg" alt="Dark with Red Moon">
+          <div class="product-info">
+            <h2>Tanjiro Sun-breathing</h2>
+            <p>৳350.00</p>
+            <a href=""><button>Buy now</button></a>
+          </div>
+        </div>
+        <div class="product">
+          <img src="28.jpg" alt="Tanjiro" />
+          <div class="product-info">
+            <h2>Tanjiro</h2>
+            <p>৳350.00</p>
+            <a href=""><button>Buy now</button></a>
+          </div>
+        </div>
+        </div>
+      </section>
+    </main><div id="footer"></div>
+<script>
+         if (typeof jQuery == 'undefined') {
+    console.log('jQuery is not loaded.');
+} else {
+    console.log('jQuery is loaded.');
+}
+
+         $(function(){
+            $("#footer").("../../../footer.html"); 
+         });
+      </script>
+<div id="footer"></div>
+      <!-- include the footer -->
+      <script>
+         var xhr = new XMLHttpRequest();
+         xhr.open('GET', '../../../footer.html', true);
+         xhr.onreadystatechange = function() {
+            if (this.readyState !== 4) return;
+            if (this.status !== 200) return;
+            document.getElementById('footer').innerHTML = this.responseText;
+         };
+         xhr.send();
+      </script>
+  </body>
+</html>
