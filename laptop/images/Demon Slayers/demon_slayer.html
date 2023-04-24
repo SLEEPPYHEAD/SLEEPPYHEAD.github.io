@@ -6,7 +6,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <link rel="stylesheet" href="../../../styles/alt.css" />
-    <link rel="stylesheet" type="text/css" href="../../../styles/home.css" />
+    <link rel="stylesheet" type="text/css" href="../../../head-nav-foot/footer.css" />
  </head>
   <body>
     <header>
@@ -71,29 +71,18 @@
         </div>
         </div>
       </section>
-    </main><div id="footer"></div>
-<script>
-         if (typeof jQuery == 'undefined') {
-    console.log('jQuery is not loaded.');
-} else {
-    console.log('jQuery is loaded.');
-}
-
-         $(function(){
-            $("#footer").("../../../footer.html"); 
-         });
-      </script>
-<div id="footer"></div>
-      <!-- include the footer -->
-      <script>
-         var xhr = new XMLHttpRequest();
-         xhr.open('GET', '../../../footer.html', true);
-         xhr.onreadystatechange = function() {
-            if (this.readyState !== 4) return;
-            if (this.status !== 200) return;
-            document.getElementById('footer').innerHTML = this.responseText;
-         };
-         xhr.send();
-      </script>
+    </main>
+    <div id="footer"></div>
+    <!-- include the footer -->
+    <script>
+        var xhr = new XMLHttpRequest();
+        xhr.open('GET', '../../../head-nav-foot/footer.html', true);
+        xhr.onreadystatechange = function() {
+          if (this.readyState !== 4) return;
+          if (this.status !== 200) return;
+          document.getElementById('footer').innerHTML = this.responseText;
+        };
+        xhr.send();
+    </script>
   </body>
 </html>
