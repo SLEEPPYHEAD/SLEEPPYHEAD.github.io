@@ -93,3 +93,11 @@ a.buttons {
   background-repeat: no-repeat; /* Prevent the background image from repeating */
   background-position: center; /* Center the background image */
 }
+
+.doodles {
+  opacity: 1; /* Decrease the opacity of the element */
+  background-image: url(../laptop/images/Doodles/2/2.jpg);
+  background-size: cover; /* Make the background image cover the container */
+  background-repeat: no-repeat; /* Prevent the background image from repeating */
+  background-position: center; /* Center the background image */
+}
