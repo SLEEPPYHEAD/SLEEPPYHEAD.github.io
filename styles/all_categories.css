@@ -81,9 +81,9 @@ img {
   padding: 20px; /* Add padding */
 }
 
-a.buttons {
+a {
   text-decoration: none;
-  color: aliceblue;
+  /* color: aliceblue; */
 }
 
 .demon-slayer {
