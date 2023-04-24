@@ -151,22 +151,3 @@ body {
 .customer-reviews{
   background-color: #50556a;
 }
-
-/*=========================================
-============== Footer ============
-===========================================*/
-.info-wrap-foot {
-  background-color: #6684a3
-}
-.footer-infos {
-  width: 20%;
-  float: left;
-  margin-right: 0;
-}
-.sub-cat {
-  margin: 0;
-  padding: 0;
-  color: #505053;
-  font-family: 'roboto';
-  font-size: 12px;
-  }
