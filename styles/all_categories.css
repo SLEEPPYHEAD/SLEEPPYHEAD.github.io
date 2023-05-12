@@ -105,7 +105,7 @@ a {
 
   opacity: 1; /* Decrease the opacity of the element */
 
-  background-image: url(../phone/images/ChainsawMan/ChainsawMan.jpg);
+  background-image: url(../phone/images/ChainsawMan/ChainsawMan.jpg); 
 
   background-size: cover; /* Make the background image cover the container */
 
