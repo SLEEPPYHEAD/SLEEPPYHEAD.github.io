@@ -122,4 +122,18 @@ a {
   background-repeat: no-repeat; /* Prevent the background image from repeating */
   background-position: center; /* Center the background image */
 }
+.hp-victus {
+
+  opacity: 1; /* Decrease the opacity of the element */
+
+  background-image: url(../phone/images/New Skin-11-2-23/09.jpg);
+
+  background-size: cover; /* Make the background image cover the container */
+
+  background-repeat: no-repeat; /* Prevent the background image from repeating */
+
+  background-position: center; /* Center the background image */
+
+}
+
 
