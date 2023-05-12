@@ -101,6 +101,19 @@ a {
   background-repeat: no-repeat; /* Prevent the background image from repeating */
   background-position: center; /* Center the background image */
 }
+.chainsaw-man {
+
+  opacity: 1; /* Decrease the opacity of the element */
+
+  background-image: url(../phone/images/ChainsawMan/ChainsawMan.jpg);
+
+  background-size: cover; /* Make the background image cover the container */
+
+  background-repeat: no-repeat; /* Prevent the background image from repeating */
+
+  background-position: center; /* Center the background image */
+
+}
 
 .hp-victus {
   opacity: 1; /* Decrease the opacity of the element */
@@ -109,3 +122,4 @@ a {
   background-repeat: no-repeat; /* Prevent the background image from repeating */
   background-position: center; /* Center the background image */
 }
+
