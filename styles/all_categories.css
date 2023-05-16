@@ -102,17 +102,11 @@ a {
   background-position: center; /* Center the background image */
 }
 .chainsaw-man {
-
   opacity: 1; /* Decrease the opacity of the element */
-
-  background-image: url(../phone/images/ChainsawMan/ChainsawMan.jpg); 
-
+  background-image: url(https://www.belloflostsouls.net/wp-content/uploads/2021/06/chainsaw-man-manga.jpg); 
   background-size: cover; /* Make the background image cover the container */
-
   background-repeat: no-repeat; /* Prevent the background image from repeating */
-
   background-position: center; /* Center the background image */
-
 }
 
 .hp-victus {
@@ -123,17 +117,86 @@ a {
   background-position: center; /* Center the background image */
 }
 .classical {
-
   opacity: 1; /* Decrease the opacity of the element */
-
-  background-image: url(../phone/images/New Skin-11-2-23/9.jpg);
-
+  background-image: url(../phone/images/Classical/9.jpg);
   background-size: cover; /* Make the background image cover the container */
-
   background-repeat: no-repeat; /* Prevent the background image from repeating */
-
   background-position: center; /* Center the background image */
-
 }
-
-
+.anime {
+  opacity: 1; /* Decrease the opacity of the element */
+  background-image: url(../phone/images/Anime/4.jpeg); 
+  background-size: cover; /* Make the background image cover the container */
+  background-repeat: no-repeat; /* Prevent the background image from repeating */
+  background-position: center; /* Center the background image */
+}
+.simple {
+  opacity: 1; /* Decrease the opacity of the element */
+  background-image: url(../phone/images/Skins/4.jpg); 
+  background-size: cover; /* Make the background image cover the container */
+  background-repeat: no-repeat; /* Prevent the background image from repeating */
+  background-position: center; /* Center the background image */
+}
+.pokeamon {
+  opacity: 1; /* Decrease the opacity of the element */
+  background-image: url(https://images.launchbox-app.com/16843d32-0fe8-4fb2-a6b8-987e973483eb.jpg); 
+  background-size: cover; /* Make the background image cover the container */
+  background-repeat: no-repeat; /* Prevent the background image from repeating */
+  background-position: center; /* Center the background image */
+}
+.quotes {
+  opacity: 1; /* Decrease the opacity of the element */
+  background-image: url(https://th.bing.com/th/id/R.1653eac9863505dcf5a27761e5e6224b?rik=SLnMC8SVGOyDVQ&pid=ImgRaw&r=0); 
+  background-size: cover; /* Make the background image cover the container */
+  background-repeat: no-repeat; /* Prevent the background image from repeating */
+  background-position: center; /* Center the background image */
+}
+.opm {
+  opacity: 1; /* Decrease the opacity of the element */
+  background-image: url(https://i1.wp.com/psxextreme.com/wp-content/uploads/2019/06/one-punch-man.jpg?fit=1920%2C1080&ssl=1); 
+  background-size: cover; /* Make the background image cover the container */
+  background-repeat: no-repeat; /* Prevent the background image from repeating */
+  background-position: center; /* Center the background image */
+}
+.naruto {
+  opacity: 1; /* Decrease the opacity of the element */
+  background-image: url(https://www.leukvoorkids.nl/wp-content/uploads/wallpaper-naruto-2.jpg); 
+  background-size: cover; /* Make the background image cover the container */
+  background-repeat: no-repeat; /* Prevent the background image from repeating */
+  background-position: center; /* Center the background image */
+}
+.minion {
+  opacity: 1; /* Decrease the opacity of the element */
+  background-image: url(https://th.bing.com/th/id/R.177e492dcc63e5eca0d14f377cf1c9c8?rik=xM%2bbcCFjRv7zZw&riu=http%3a%2f%2fwallsdesk.com%2fwp-content%2fuploads%2f2016%2f06%2fMinions-Photos.jpg&ehk=BJAdhLQn%2fZeFC9i9X5Ny3DZ2k82bY9HbfonO71xDaa8%3d&risl=&pid=ImgRaw&r=0); 
+  background-size: cover; /* Make the background image cover the container */
+  background-repeat: no-repeat; /* Prevent the background image from repeating */
+  background-position: center; /* Center the background image */
+}
+.marvel {
+  opacity: 1; /* Decrease the opacity of the element */
+  background-image: url(https://th.bing.com/th/id/R.efa2b6b0c08bf383239e5c468865ecc7?rik=ApsLEl9iE02OJw&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2fe%2f8%2fe%2f114223.jpg&ehk=BJYlfNrnOrrre7uJY48Vwzh2hd4X7Hv6JcygFnIgxpQ%3d&risl=&pid=ImgRaw&r=0); 
+  background-size: cover; /* Make the background image cover the container */
+  background-repeat: no-repeat; /* Prevent the background image from repeating */
+  background-position: center; /* Center the background image */
+}
+.mh {
+  opacity: 1; /* Decrease the opacity of the element */
+  background-image: url(https://filmdaily.co/wp-content/uploads/2020/06/moneyheisttrailers-lede.jpg); 
+  background-size: cover; /* Make the background image cover the container */
+  background-repeat: no-repeat; /* Prevent the background image from repeating */
+  background-position: center; /* Center the background image */
+}
+.myhero {
+  opacity: 1; /* Decrease the opacity of the element */
+  background-image: url(https://th.bing.com/th/id/R.bba38ff60bbef70fdffd0401f848a851?rik=wCR2RAO%2fTqW57A&pid=ImgRaw&r=0); 
+  background-size: cover; /* Make the background image cover the container */
+  background-repeat: no-repeat; /* Prevent the background image from repeating */
+  background-position: center; /* Center the background image */
+}
+.dc {
+  opacity: 1; /* Decrease the opacity of the element */
+  background-image: url(https://th.bing.com/th/id/R.a82cf7708a37cc6631b71b8823a777b9?rik=DlXBTL%2bMDR383w&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2f1%2fa%2fd%2f1493945-new-dc-comics-wallpapers-1920x1080.jpg&ehk=CbZBTPm87bzkPStPf6jt6BSaSpjqO5uu1QzkfLMcfio%3d&risl=&pid=ImgRaw&r=0); 
+  background-size: cover; /* Make the background image cover the container */
+  background-repeat: no-repeat; /* Prevent the background image from repeating */
+  background-position: center; /* Center the background image */
+}
