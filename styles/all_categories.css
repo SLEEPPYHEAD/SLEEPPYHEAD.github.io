@@ -242,3 +242,10 @@ a {
   background-repeat: no-repeat; /* Prevent the background image from repeating */
   background-position: center; /* Center the background image */
 }
+.skull {
+  opacity: 1; /* Decrease the opacity of the element */
+  background-image: url(../laptop/images/Skull/02.jpg);
+  background-size: cover; /* Make the background image cover the container */
+  background-repeat: no-repeat; /* Prevent the background image from repeating */
+  background-position: center; /* Center the background image */
+}

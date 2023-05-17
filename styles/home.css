@@ -107,6 +107,20 @@ body {
   background-repeat: no-repeat; /* Prevent the background image from repeating */
   background-position: center; /* Center the background image */
 }
+.earphone {
+  opacity: 1; /* Decrease the opacity of the element */
+  background-image: url(https://cdn.shopify.com/s/files/1/0487/0415/9909/products/ancient_bad9b20c-d622-40c5-85fc-bc96b75a78c4.jpg?v=1625572043&width=600);
+  background-size: cover; /* Make the background image cover the container */
+  background-repeat: no-repeat; /* Prevent the background image from repeating */
+  background-position: center; /* Center the background image */
+}
+.headphone {
+  opacity: 1; /* Decrease the opacity of the element */
+  background-image: url(https://sc04.alicdn.com/kf/Hb0eff2a4423746b7921d741b8ddbea01K.jpg);
+  background-size: cover; /* Make the background image cover the container */
+  background-repeat: no-repeat; /* Prevent the background image from repeating */
+  background-position: center; /* Center the background image */
+}
 
 /*=========search==========*/
 .search-container {
