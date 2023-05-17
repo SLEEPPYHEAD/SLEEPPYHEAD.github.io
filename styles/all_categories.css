@@ -200,3 +200,31 @@ a {
   background-repeat: no-repeat; /* Prevent the background image from repeating */
   background-position: center; /* Center the background image */
 }
+.kawai {
+  opacity: 1; /* Decrease the opacity of the element */
+  background-image: url(../laptop/images/Kawai_art_girls/1.jpg);
+  background-size: cover; /* Make the background image cover the container */
+  background-repeat: no-repeat; /* Prevent the background image from repeating */
+  background-position: center; /* Center the background image */
+}
+.Classical {
+  opacity: 1; /* Decrease the opacity of the element */
+  background-image: url(../laptop/images/classical/2/02.jpg);
+  background-size: cover; /* Make the background image cover the container */
+  background-repeat: no-repeat; /* Prevent the background image from repeating */
+  background-position: center; /* Center the background image */
+}
+.pastel {
+  opacity: 1; /* Decrease the opacity of the element */
+  background-image: url(../laptop/images/Pastel_ART/2.jpg);
+  background-size: cover; /* Make the background image cover the container */
+  background-repeat: no-repeat; /* Prevent the background image from repeating */
+  background-position: center; /* Center the background image */
+}
+.rog {
+  opacity: 1; /* Decrease the opacity of the element */
+  background-image: url(../laptop/images/ROG/12.jpg);
+  background-size: cover; /* Make the background image cover the container */
+  background-repeat: no-repeat; /* Prevent the background image from repeating */
+  background-position: center; /* Center the background image */
+}
