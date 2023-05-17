@@ -235,3 +235,10 @@ a {
   background-repeat: no-repeat; /* Prevent the background image from repeating */
   background-position: center; /* Center the background image */
 }
+.hot {
+  opacity: 1; /* Decrease the opacity of the element */
+  background-image: url(../phone/images/Hot_sale/1.jpg);
+  background-size: cover; /* Make the background image cover the container */
+  background-repeat: no-repeat; /* Prevent the background image from repeating */
+  background-position: center; /* Center the background image */
+}
