@@ -20,15 +20,20 @@
   <body>
     <!-- Header -->
     <header>
-      <h1>
-        <div class="search-container">
-          <input type="search" placeholder="Search..." />
-          <a
-            href="#"
-            ><button type="submit">Search</button></a
-          >
-        </div>
-      </h1>
+    <div id="header"></div>
+    <link rel="stylesheet" type="text/css" href="../../../head-nav-foot/header.css" />
+    <script src="../../../head-nav-foot/header.js"></script>
+    <!-- include the header -->
+    <script>
+        var xhr = new XMLHttpRequest();
+        xhr.open('GET', 'head-nav-foot/header.html', true);
+        xhr.onreadystatechange = function() {
+          if (this.readyState !== 4) return;
+          if (this.status !== 200) return;
+          document.getElementById('header').innerHTML = this.responseText;
+        };
+        xhr.send();
+    </script>
     </header>
 
     <!-- Main -->
@@ -82,7 +87,7 @@
     <!-- include the footer -->
     <script>
         var xhr = new XMLHttpRequest();
-        xhr.open('GET', '../../../head-nav-foot/footer.html', true);
+        xhr.open('GET', 'head-nav-foot/footer.html', true);
         xhr.onreadystatechange = function() {
           if (this.readyState !== 4) return;
           if (this.status !== 200) return;
@@ -90,6 +95,5 @@
         };
         xhr.send();
     </script>
-    <script src="script.js"></script>
   </body>
 </html>

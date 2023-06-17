@@ -1,0 +1,136 @@
+.sticky-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    font-family: 'Avenir Light', sans-serif;
+}
+
+/*=========================================
+============== Top Header ============
+===========================================*/
+.top-header {
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 25px;
+    font-size: 15px;
+}
+
+.header-offer {
+    margin-left: 20px; /* Adjust the margin as per your preference */
+}
+
+.header-info {
+    margin-right: 20px; /* Adjust the margin as per your preference */
+}
+
+.header-info a {
+    margin-right: 10px; /* Adjust the margin between the links */
+    color: aliceblue;
+}
+
+/*=========================================
+============== Search Header ============
+===========================================*/
+.header-mid {
+    background-color: rgb(196, 255, 240);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+     /* Adjust the height as per your preference */
+}
+
+.logo {
+    margin-right: 20px;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    border-radius: 20px; /* Adjust the border-radius value to make it more or less round */
+    overflow: hidden;
+}
+
+.search input[type="search"] {
+    height: 40px; /* Adjust the height as per your preference */
+    width: 300px;
+    border: none;
+    padding: 5px 10px;
+}
+
+.search button[type="submit"] {
+    background-color: #8233c8;
+    border: none;
+    color: #eef3f3;
+    height: 40px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.cart img {
+    width: 30px;
+    height: 30px;
+}
+.cart-count {
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+  }
+
+/*=========================================
+============== Nav Header ============
+===========================================*/
+.header-nav {
+    background-color: rgb(154, 221, 233);
+    color: rgb(16, 16, 16);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+    font-size: 20px;
+}
+nav {
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    margin-right: 10px; /* Adjust the spacing between the items */
+}
+
+.menu li:last-child {
+    margin-right: 0; /* Remove the margin on the last item */
+}  
+
+.menu a {
+    color: #323234;
+    text-decoration: none;
+}

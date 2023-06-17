@@ -1,17 +1,32 @@
 .info-wrap-foot {
-background-color: #6684a3
+    background-color: #c5d6e8;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Avenir Light', sans-serif;
 }
+
 .footer-infos {
-width: 20%;
-float: left;
-margin-right: 0;
+    width: 20%;
+    float: left;
+    margin-left: 5px;
+    white-space: nowrap;
 }
+
+.footer-infos h2{
+    margin-left: 5px;
+    font-size: 20px;
+}
+
 .sub-cat {
-margin: 0;
-padding: 0;
-color: #505053;
-font-family: 'roboto';
-font-size: 12px;
+    margin-left: 20px;
+    padding: 0;
+    color: #505053;
+    font-size: 16px;
+}
+
+.sub-cat a {
+    color: #3b3b42;
+    text-decoration: none;
 }
 /*=========================================
 ============== Socials ============
@@ -22,7 +37,18 @@ ul.sub-cat img {
     height: 15px;
     border-radius: 10px;
 }
+
 div.socials {
-position: relative;
-left: 90%;
+    position: relative;
+    left: 90%;
 }
+
+/*=========================================
+============== Styles for phone ============
+===========================================*/
+
+@media (max-width: 767px) {
+    .info-wrap-foot {
+        flex-direction: column;
+    }
+    }
