@@ -175,7 +175,7 @@ main {
   background-repeat: no-repeat; /* Prevent the background image from repeating */
   background-position: center; /* Center the background image */
 }
-.Classical {
+.button-classical {
   opacity: 1; /* Decrease the opacity of the element */
   background-image: url(../laptop/images/classical/2/02.jpg);
   background-size: cover; /* Make the background image cover the container */
