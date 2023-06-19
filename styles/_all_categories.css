@@ -1,58 +1,95 @@
-body {
-  background: linear-gradient(#cffbff, #faeefc);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
-  background-color: ;
+#header {
+  position: relative;
+  z-index: 1;
 }
 
 main {
-  margin-top: 190px; /* Adjust the padding value to create space for the fixed header */
+  margin-top: 150px; /* Adjust the margin-top value as needed */
+}
+div.category-buttons {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 20px;
+  margin: 20px;
+}
+/*div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #ddd;
+} */
+
+/* Media queries for responsive layout */
+@media screen and (max-width: 768px) {
+  main {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+  div {
+    padding: 5px;
+  }
 }
 
-
 /*=========================================
-============== Button Group =============
+============== Category Buttons ============
 ===========================================*/
+.button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
 
+.button {
+  padding: 20px;
+  margin: 10px;
+  border: none;
+  background-color: #c8f7c8;
+  border-radius: 5px;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+}
+/*============================================
+================== Buttons ======================
+===============================================*/
+.hompage-buttons-section {
+  padding-top: 50px; 
+}
 
-.button-group {
+.category-buttons {
   display: flex;
   flex-wrap: wrap;
   justify-content: center; /* Center horizontally */
   align-items: center; /* Center vertically */
   gap: 25px; /*gap between buttons in same row */
-  margin: 20px;
 }
 
-.button-group button {
+.category-buttons button {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   text-align: center;
   color: aliceblue;
-  font-size: 32px;
-  width: 230px;
-  height: 100px;
+  font-size: 20px;
+  width: 120px;
+  height: 60px;
   margin-right: 10px;
   margin-bottom: 10px;
   border-radius: 10px;
   padding: 20px; /* Add padding */
 }
-.button-group a {
+
+a {
   text-decoration: none;
+  /* color: aliceblue; */
 }
 
-/*=========================================
-============= Scrolling text ==============
-===========================================*/
-
-
-/*=========================================
-================= Buttons ==================
-===========================================*/
 
 .demon-slayer {
   opacity: 1; /* Decrease the opacity of the element */
@@ -217,4 +254,3 @@ main {
   background-repeat: no-repeat; /* Prevent the background image from repeating */
   background-position: center; /* Center the background image */
 }
-

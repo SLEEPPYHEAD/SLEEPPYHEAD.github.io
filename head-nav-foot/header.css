@@ -133,4 +133,48 @@ nav {
 .menu a {
     color: #323234;
     text-decoration: none;
+    margin-right: 8px;
 }
+
+/*=========================================
+============== Nav Header ============
+===========================================*/
+/* Media Queries for Mobile */
+@media (max-width: 600px) {
+    .header-info, .header-nav {
+        display: none;
+    }
+  
+    .header-mid {
+      flex-wrap: wrap;
+      height: auto;
+      padding: 10px 20px;
+    }
+  
+    .logo-left {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+  
+    .search {
+        width: 100%;
+        margin: 10px 0;
+    }
+  
+    .cart {
+      margin-right: 0;
+    }
+  
+    .header-nav {
+      font-size: 16px;
+      padding: 10px 20px;
+    }
+  
+    .menu li {
+      margin-bottom: 10px;
+    }
+  
+    .menu li:last-child {
+      margin-right: 10px;
+    }
+  }

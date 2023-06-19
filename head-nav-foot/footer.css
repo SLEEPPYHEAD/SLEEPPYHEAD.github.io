@@ -44,6 +44,20 @@ div.socials {
 }
 
 /*=========================================
+============== Footer Bottom ============
+===========================================*/
+
+.footer-bottom {
+    background-color: rgb(153, 153, 153);
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15px;
+    font-size: 12px;
+}
+
+/*=========================================
 ============== Styles for phone ============
 ===========================================*/
 

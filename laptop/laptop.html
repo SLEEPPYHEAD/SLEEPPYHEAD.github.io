@@ -1,53 +1,85 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Product Catalog</title>
+    <title>Laptop Skins</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <link rel="stylesheet" href="../styles/all_categories.css" />
   </head>
   <body>
-   <main>
-    <title>Laptop Skin Categories</title>
-    <h1>Laptop Skin Categories</h1>
-    <style>
+    <!-- Header -->
+    <div id="header"></div>
+    <link rel="stylesheet" type="text/css" href="../../../head-nav-foot/header.css"/>
+    <script src=".../../../head-nav-foot/header.js"></script>
+    <!-- include the header -->
+    <script>
+      var xhr = new XMLHttpRequest();
+      xhr.open("GET", "../../../head-nav-foot/header.html", true);
+      xhr.onreadystatechange = function () {
+        if (this.readyState !== 4) return;
+        if (this.status !== 200) return;
+        document.getElementById("header").innerHTML = this.responseText;
+      };
+      xhr.send();
+    </script>
 
-    </style>
-  </head>
-  <body>
-    <div class="category-buttons">
-        <a href="images/Classical/classical_laptop.html" class="buttons"><button class="button Classical">Classical</button></a>
-        <a href="images\Demon_Slayers\demon_slayer.html" class="buttons"><button class="button demon-slayer"></button></a>
-        <a href="images\Naruto\naruto.html" class="buttons"><button class="button naruto"></button></a>
-        <a href="images\Pastel_ART\pastel.html" class="buttons"><button class="button pastel"></button></a>
-        <a href="images\Pokemon\pokemon.html" class="buttons"><button class="button pokeamon"></button></a>
-        <a href="images\ROG\rog.html" class="buttons"><button class="button rog"></button></a>
-        <a href="images\Kawai_art_girls\kawai.html" class="buttons"><button class="button kawai"></button></a>
-        <a href="images\HP_Victus\HP_Victus.html" class="buttons"><button class="button hp-victus">HP Victus</button></a>
-        <a href="images\Light_Touch\light.html" class="buttons"><button class="button light"></button></a>
-        <a href="images\Skull\skull.html" class="buttons"><button class="button skull"></button></a>
-        <button class="button">Button 11</button>
-        <button class="button">Button 12</button>
-        <button class="button">Button 13</button>
-        <button class="button">Button 14</button>
-        <button class="button">Button 15</button>
-        <button class="button">Button 16</button>
-    </div>
-   </main>
-   <!-- Footer -->
-   <div id="footer"></div>
-   <link rel="stylesheet" type="text/css" href="../../../head-nav-foot/footer.css" />
-   <!-- include the footer -->
-   <script>
-       var xhr = new XMLHttpRequest();
-       xhr.open('GET', '../../../head-nav-foot/footer.html', true);
-       xhr.onreadystatechange = function() {
-         if (this.readyState !== 4) return;
-         if (this.status !== 200) return;
-         document.getElementById('footer').innerHTML = this.responseText;
-       };
-       xhr.send();
-   </script>
+    <!-- Main -->
+    <main>
+      <div class="button-group">
+        <a href="images/Classical/classical_laptop.html" class="buttons"
+          ><button class="button Classical">Classical</button></a
+        >
+        <a href="images\Demon_Slayers\demon_slayer.html" class="buttons"
+          ><button class="button demon-slayer"></button
+        ></a>
+        <a href="images\Naruto\naruto.html" class="buttons"
+          ><button class="button naruto"></button
+        ></a>
+        <a href="images\Pastel_ART\pastel.html" class="buttons"
+          ><button class="button pastel"></button
+        ></a>
+        <a href="images\Pokemon\pokemon.html" class="buttons"
+          ><button class="button pokeamon"></button
+        ></a>
+        <a href="images\ROG\rog.html" class="buttons"
+          ><button class="button rog"></button
+        ></a>
+        <a href="images\Kawai_art_girls\kawai.html" class="buttons"
+          ><button class="button kawai"></button
+        ></a>
+        <a href="images\HP_Victus\HP_Victus.html" class="buttons"
+          ><button class="button hp-victus">HP Victus</button></a
+        >
+        <a href="images\Light_Touch\light.html" class="buttons"
+          ><button class="button light"></button
+        ></a>
+        <a href="images\Skull\skull.html" class="buttons"
+          ><button class="button skull"></button
+        ></a>
+        <a href="images\Doodles\Doodles.html" class="buttons"
+          ><button class="doodles"></button
+        ></a>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <div id="footer"></div>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../../../head-nav-foot/footer.css"
+    />
+    <!-- include the footer -->
+    <script>
+      var xhr = new XMLHttpRequest();
+      xhr.open("GET", "../../../head-nav-foot/footer.html", true);
+      xhr.onreadystatechange = function () {
+        if (this.readyState !== 4) return;
+        if (this.status !== 200) return;
+        document.getElementById("footer").innerHTML = this.responseText;
+      };
+      xhr.send();
+    </script>
   </body>
 </html>
