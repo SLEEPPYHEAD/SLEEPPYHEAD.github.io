@@ -1,22 +1,32 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Product Catalog</title>
+    <title>Phone Skins</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <link rel="stylesheet" href="../styles/_all_categories.css" />
+    <link rel="stylesheet" href="../styles/all_categories.css" />
   </head>
   <body>
-   <main>
-    <title>Laptop Skin Categories</title>
-    <h1>Laptop Skin Categories</h1>
-    <style>
+        <!-- Header -->
+    <div id="header"></div>
+    <link rel="stylesheet" type="text/css" href="../../../head-nav-foot/header.css"/>
+    <script src=".../../../head-nav-foot/header.js"></script>
+    <!-- include the header -->
+    <script>
+      var xhr = new XMLHttpRequest();
+      xhr.open("GET", "../../../head-nav-foot/header.html", true);
+      xhr.onreadystatechange = function () {
+        if (this.readyState !== 4) return;
+        if (this.status !== 200) return;
+        document.getElementById("header").innerHTML = this.responseText;
+      };
+      xhr.send();
+    </script>
 
-    </style>
-  </head>
-  <body>
-    <div class="category-buttons">
+    <!-- Main -->
+    <main>
+      <div class="button-group">
         <a href="images/Skins/Normal.html" class="buttons"><button class="button simple">Simple Skins</button></a>
         <a href="images\Hot_sale\hot.html" class="buttons"><button class="button hot"></button></a>
         <a href="images/ChainsawMan/Chainsawman.html" class="buttons"><button class="button chainsaw-man"></button></a>
@@ -26,27 +36,32 @@
         <a href="images\One_Punch_Man\onepunchman.html" class="buttons"><button class="button opm"></button></a>
         <a href="images\Pokemon\pokeamon.html" class="buttons"><button class="button pokeamon"></button></a>
         <a href="images\Quotes\Quotes.html" class="buttons"><button class="button quotes"></button></a>
-        <a href="images\My_Hero_Academia\myhero.html" class="buttons"><button class="button myhero"></button></a>
+        <a href="images\My_Hero_Academia\myhero.html" class="buttons"><button class="mha"></button></a>
         <a href="images\Money_Heist\mh.html" class="buttons"><button class="button mh"></button></a>
         <a href="images\Minions\mini.html" class="buttons"><button class="button minion"></button></a>
         <a href="images\Marvel\marvel.html" class="buttons"><button class="button marvel"></button></a>
-        <a href="images\DC\dc.html" class="buttons"><button class="button dc"></button></a>
+        <a href="images\DC\dc.html" class="buttons"><button class="dc"></button></a>
         
     </div>
    </main>
-   <!-- Footer -->
-   <div id="footer"></div>
-   <link rel="stylesheet" type="text/css" href="../../../head-nav-foot/footer.css" />
-   <!-- include the footer -->
-   <script>
-       var xhr = new XMLHttpRequest();
-       xhr.open('GET', '../../../head-nav-foot/footer.html', true);
-       xhr.onreadystatechange = function() {
-         if (this.readyState !== 4) return;
-         if (this.status !== 200) return;
-         document.getElementById('footer').innerHTML = this.responseText;
-       };
-       xhr.send();
-   </script>
+
+    <!-- Footer -->
+    <div id="footer"></div>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../../../head-nav-foot/footer.css"
+    />
+    <!-- include the footer -->
+    <script>
+      var xhr = new XMLHttpRequest();
+      xhr.open("GET", "../../../head-nav-foot/footer.html", true);
+      xhr.onreadystatechange = function () {
+        if (this.readyState !== 4) return;
+        if (this.status !== 200) return;
+        document.getElementById("footer").innerHTML = this.responseText;
+      };
+      xhr.send();
+    </script>
   </body>
 </html> 

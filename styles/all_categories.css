@@ -142,7 +142,7 @@ main {
 }
 .marvel {
   opacity: 1; /* Decrease the opacity of the element */
-  background-image: url(https://th.bing.com/th/id/R.efa2b6b0c08bf383239e5c468865ecc7?rik=ApsLEl9iE02OJw&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2fe%2f8%2fe%2f114223.jpg&ehk=BJYlfNrnOrrre7uJY48Vwzh2hd4X7Hv6JcygFnIgxpQ%3d&risl=&pid=ImgRaw&r=0); 
+  background-image: url(https://wallpapercave.com/wp/kO5R1kx.jpg); 
   background-size: cover; /* Make the background image cover the container */
   background-repeat: no-repeat; /* Prevent the background image from repeating */
   background-position: center; /* Center the background image */
@@ -154,16 +154,16 @@ main {
   background-repeat: no-repeat; /* Prevent the background image from repeating */
   background-position: center; /* Center the background image */
 }
-.myhero {
+.mha {
   opacity: 1; /* Decrease the opacity of the element */
-  background-image: url(https://th.bing.com/th/id/R.bba38ff60bbef70fdffd0401f848a851?rik=wCR2RAO%2fTqW57A&pid=ImgRaw&r=0); 
+  background-image: url(https://assets1.ignimgs.com/2016/04/11/my-hero-academia-poster-ajpg-6d9b63.jpg); 
   background-size: cover; /* Make the background image cover the container */
   background-repeat: no-repeat; /* Prevent the background image from repeating */
   background-position: center; /* Center the background image */
 }
 .dc {
   opacity: 1; /* Decrease the opacity of the element */
-  background-image: url(https://th.bing.com/th/id/R.a82cf7708a37cc6631b71b8823a777b9?rik=DlXBTL%2bMDR383w&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2f1%2fa%2fd%2f1493945-new-dc-comics-wallpapers-1920x1080.jpg&ehk=CbZBTPm87bzkPStPf6jt6BSaSpjqO5uu1QzkfLMcfio%3d&risl=&pid=ImgRaw&r=0); 
+  background-image: url(https://i.pinimg.com/736x/bd/a5/43/bda54301f63c19f2c6569feda7ac4586.jpg); 
   background-size: cover; /* Make the background image cover the container */
   background-repeat: no-repeat; /* Prevent the background image from repeating */
   background-position: center; /* Center the background image */
